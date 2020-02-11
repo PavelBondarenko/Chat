@@ -15,7 +15,8 @@
     <?php
     $arr = file("mess.txt");
     foreach ($arr as $value) {
-        echo "<div class='csss'>$value</div>";
+        $chat = explode(":", $value);
+        echo "<div class='csss'>$chat[2] : $chat[3]</div>";
         // echo "<div class = '" . (($key % 2) ? 'odd' : 'even') . "'> $value </div>";
     }
     ?>
