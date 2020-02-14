@@ -1,4 +1,0 @@
-127.0.0.1:Павел:Привет
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36:127.0.0.1:Павел:Здравствуй!
-Chrome/68.0.3440.106:127.0.0.1:Павел:Здравствуй!!!
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36:127.0.0.1:f:f
