@@ -25,7 +25,7 @@
 
     <?php
     $time = time();
-    $showtime = date("d-M-Y", mktime(0, 0, 0, 12, 20, 2007));
+    $showtime = date("G:i-d-M-Y");
     $ban = file("ban.txt");
     include("config.php");
     if (in_array($_SERVER['REMOTE_ADDR'], $ban)) {
