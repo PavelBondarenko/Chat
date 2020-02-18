@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        margin-left: 400px;
+    }
+</style>
+
+<body>
+    <form action="check.php" method="POST">
+        <input name="Image1" src="1234.jpg" width="500px" type="image"><br>
+        <input name="File1" type="file"><br>
+        <input id="ch1" type="checkbox"><br>
+        <br>
+        <input name="Hidden1" type="hidden" value="123">
+        <br>
+        <label for="ch1">
+            <h1>Hello</h1>
+        </label>
+        <br>
+        <input type="text" value="Введите логин">
+        <br>
+        <input name="Password" type="password" value="123">
+        <br>
+        <input type="reset" name="Reeset1" value="Сброс">
+        <br>
+        <input type="submit" value="ok">
+        <br>
+        <br>
+        <select name="s1" id="">
+            <option value="1">Один</option>
+            <option value="2" selected="selected">Два</option>
+            <option value="3">Три</option>
+        </select>
+        <textarea name="TextAreal" cols="30" rows="2">123</textarea>
+    </form>
+</body>
+
+</html>

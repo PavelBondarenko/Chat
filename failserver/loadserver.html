@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="loadserv.php" enctype="multipart/form-data" method="POST">
+        <input name="MAX_FILE_SIZE" type="hidden" value="3000000">
+        <!--создает ограничения на загружемость файла пользователя-->
+        Отправить этот файл:
+        <input name="userfile" type="file">
+        <input type="submit" value="Отправить">
+
+    </form>
+</body>
+
+</html>
