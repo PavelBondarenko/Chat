@@ -6,3 +6,5 @@ $arr = scandir("file");
 foreach ($arr as $value) {
     echo "<a href=\"file\\$value\">$value</a>";
 }
+$filesize = filesize("file\\opros.csv");
+echo "Размер файла: $filesize";
