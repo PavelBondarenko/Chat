@@ -1,1 +1,2 @@
 Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36<++>1582040364<++>18:39-18-Feb-2020<++>127.0.0.1<++>Павел<++>Привет
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0<++>1582539710<++>13:21-24-Feb-2020<++>127.0.0.1<++>Павел<++>Привет
