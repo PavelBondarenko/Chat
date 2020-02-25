@@ -13,14 +13,13 @@
 
 <body>
     <form action="retext2.php" method="POST">
-        <textarea name="name" id="" cols="50" rows="30"><?= htmlspecialchars(file_get_contents('file/' . $_GET['file'])) ?></textarea><br>
+        <textarea name="name" id="" cols="50" rows="30" <?= file_get_contents('file/' . $_GET['file']) ?>></textarea><br>
         <input type="hidden" name="oldname" value="<?= $_GET['file'] ?>">
         <!-- <input type="submit" value="back" <?= header("Location: show.php") ?>> -->
-        <input class="btn btn-warning" type="submit" value="Save"><br>
+        <input class="btn btn-primary" type="submit" value="Save">
     </form>
-    <br>
     <form action="back.php ">
-        <input class="btn btn-primary" type="submit" value="Back">
+    <input class="btn btn-primary" type="submit" value="Back">
     </form>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
