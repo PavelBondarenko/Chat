@@ -16,6 +16,8 @@ for ($i = 2; $i < count($arr); $i++) {
             $icon = 'img/sm.png';
             break;
     }
-    $filesize = filesize("file\\$arr[$i]");
-    echo "<a href='file\\$arr[$i]'><img src='$icon' width='16' height='16' >$arr[$i]</a> <a href='cross.php?file=$arr[$i]'><img src='cross.jpg' width='16' height='16'></a><a href='rename.php?file=$arr[$i]'><img src='pan.png' width='20'></a> $filesize <br>";
+    $filesize = round(((filesize("file\\$arr[$i]")) / 1024) / 1024, 3) . "Mb";
+    echo "<a href='file\\$arr[$i]'><img src='$icon' width='16' height='16' >$arr[$i]</a>
+     <a href='cross.php?file=$arr[$i]'><img src='cross.jpg' width='16' height='16'></a>
+     <a href='rename.php?file=$arr[$i]'><img src='pan.png' width='20'></a> $filesize <br>";
 }

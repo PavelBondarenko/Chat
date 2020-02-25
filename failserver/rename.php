@@ -8,8 +8,9 @@
 </head>
 
 <body>
-    <form action="rename2.php" method="GET">
-        <input type="text" name="name" value="<?= $_GET['name'] ?>">
+    <form action="rename2.php" method="POST">
+        <input type="text" name="name" value="<?= $_GET['file'] ?>">
+        <input type="hidden" name="oldname" value="<?= $_GET['file'] ?>">
         <input type="submit" value="Отправить">
     </form>
 </body>
