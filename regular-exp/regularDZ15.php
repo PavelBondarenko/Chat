@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 
-<frameset rows="*, 200">
-   <frame src= "message.php">
-       <frame src="showmessage.php"> 
-</frameset>
+<body>
+    <form action="regularDZ15.1.php" method="POST">
+        <input type="text" name="word">
+        <input type="submit" value="Отправить">
+    </form>
+</body>
 
 </html>
