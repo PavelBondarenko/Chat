@@ -1,10 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    flex-direction: column;
+}
 .csss:nth-child(odd){
     background-color: lightgreen;
-    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 10px;
+    width: 50rem;
+    margin: 10px;
+    max-width: 50%;
+    opacity: 0.8;
+
 }
 .csss:nth-child(even){
     background-color: lightblue;
-    border-radius: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 10px;
+    width: 50rem;
+    margin: 10px;
+    max-width: 50%;
+    opacity: 0.8;
 }
 
 /* .even{

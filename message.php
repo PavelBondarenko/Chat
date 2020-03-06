@@ -10,7 +10,7 @@
     <title>Document</title>
     <style>
         body {
-            background-image: url(unnamed.jpg) no-repeat;
+            background-image: url(unnamed.jpg);
             background-attachment: Fixed;
             background-size: 100%
         }
