@@ -59,10 +59,16 @@ function md($text)
     ];
     return preg_replace($pat, $replace, $text);
 }
-// function img($text)
-// {
-//     $pat = [
-        
-//     ]
+function url($text)
+{
+    $pat = [
+        // '/https\:\/\/.*\.(png|jpg|gif)/i',
+        '/https\:\/\/(.*)([^j]{1,1}[^p]{1,1}[^g]{1,1})/i'
 
-// }
+    ];
+    $pat2 = [
+        // "<img src='$0'>",
+        "<a href='$0'>$0</a>"
+    ];
+    return preg_replace($pat, $pat2, $text);
+}
