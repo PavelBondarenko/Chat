@@ -34,7 +34,7 @@ function smile($text)
 }
 function mat($text)
 {
-    if (preg_match("/(дурак|редиска)/i", $text)) {
+    if (preg_match("/(дурак|редиска)/iu", $text)) {
         echo "False";
     } else {
         return $text;

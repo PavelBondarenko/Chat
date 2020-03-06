@@ -15,7 +15,7 @@
         }
 
         body {
-            background-color: lightcoral ;
+            background-color: lightcoral;
         }
     </style>
 </head>
@@ -30,9 +30,9 @@
     <?php
     $time = time();
     $showtime = date("G:i-d-M-Y");
-    $ban = file("ban.txt");
+    $ban = file_get_contents("ban.txt");
     include("config.php");
-    if (in_array($_SERVER['REMOTE_ADDR'], $ban)) {
+    if (preg_match("/" . $ban . "/iu", $_POST["chat"])) {
         echo '<div class = "BAN">Вы забанены!</div>';
     } elseif (!empty($_POST["name"]) && !empty($_POST["chat"])) {
         file_put_contents("mess.txt", $_SERVER['HTTP_USER_AGENT'] . "$separator" . $time . "$separator" . $showtime . "$separator" .  $_SERVER['REMOTE_ADDR'] . "$separator" . $_POST["name"] . "$separator" . $_POST["chat"] . "\n", FILE_APPEND);
