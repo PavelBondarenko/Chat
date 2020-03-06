@@ -5,12 +5,14 @@ function bb_code($text)
         '/\[b\](.*)\[\/b\]/',
         '/\[i\](.*)\[\/i\]/',
         '/\[u\](.*)\[\/u\]/',
+        '/\[IMG\](.*)\[\/IMG\]/',
     ];
 
     $replace = [
         "<b>$1</b>",
         "<i>$1</i>",
-        "<u>$1</u>"
+        "<u>$1</u>",
+        "<img src='$1'>"
     ];
 
     return preg_replace($pat, $replace, $text);
@@ -40,3 +42,27 @@ function mat($text)
         return $text;
     }
 }
+
+function md($text)
+{
+    $pat = [
+        '/\*\*(.*)\*\*/',
+        '/\*(.*)\*/',
+        // '//'
+
+    ];
+    $replace = [
+        "<b>$1</b>",
+        "<i>$1</i>",
+
+
+    ];
+    return preg_replace($pat, $replace, $text);
+}
+// function img($text)
+// {
+//     $pat = [
+        
+//     ]
+
+// }
