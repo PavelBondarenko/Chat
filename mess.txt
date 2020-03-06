@@ -1,3 +1,2 @@
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36<++>1582040364<++>18:39-18-Feb-2020<++>127.0.0.1<++>Павел<++>Привет
-Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0<++>1582539710<++>13:21-24-Feb-2020<++>127.0.0.1<++>Павел<++>Привет
-Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36<++>1582647657<++>19:20-25-Feb-2020<++>127.0.0.1<++>Павел<++>Здравствуй!
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0<++>1583496468<++>15:07-06-Mar-2020<++>127.0.0.1<++>Паша<++>Привет
+Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:73.0) Gecko/20100101 Firefox/73.0<++>1583496581<++>15:09-06-Mar-2020<++>127.0.0.1<++>Паша<++>:-(

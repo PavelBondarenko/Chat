@@ -1,9 +1,10 @@
 .csss:nth-child(odd){
-    background-color: green;
-    border-radius: 10px;
+    background-color: lightgreen;
+    border-radius: 9px;
 }
 .csss:nth-child(even){
-    background-color: blue;
+    background-color: lightblue;
+    border-radius: 9px;
 }
 
 /* .even{

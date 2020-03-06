@@ -25,8 +25,10 @@ function smile($text)
         "/\:\)/"
     ];
     $replace = [
-        '<img src="Smiley.png" alt="" width="50">',
-        '<img src="sad.jpg" alt="">'
+        '<img src="BBCode\Smiley.png" width="35">',
+        '<img src="BBCode\sadd.png"  width="35">',
+        '<img src="BBCode\sad2.png" width="35">',
+        '<img src="BBCode\happy2.png" width="35">'
     ];
     return preg_replace($pat, $replace, $text);
 }

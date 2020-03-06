@@ -13,6 +13,10 @@
             font-size: 140px;
             transform: rotate(-5deg)
         }
+
+        body {
+            background-color: lightcoral ;
+        }
     </style>
 </head>
 
