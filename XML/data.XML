@@ -1,46 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <msg>
-    <text>fsadfsdfdasf</text>
-    <name>Павел</name>
-    <date>10.03.20 07-03-42></date>
+	<text>sdfaadsfdasf</text>
+	<name>Павел</name>
+	<date>10-03-20 08:57:06</date>
 </msg>
 <msg>
-    <text>БОЧЕК ПОТИК</text>
-    <name>ЯРИК</name>
-    <date>10-03-20 08:20:26</date>
+	<text>Дима</text>
+	<name>Привет</name>
+	<date>10-03-20 08:57:28</date>
 </msg>
 <msg>
-	<text>sadf</text>
-	<name>ЯРИК</name>
-	<date>10-03-20 08:21:30</date>
+	<text>Дима</text>
+	<name>Привет</name>
+	<date>10-03-20 08:58:41</date>
 </msg>
 <msg>
-	<text>sadf</text>
-	<name>ЯРИК</name>
-	<date>10-03-20 08:25:31</date>
-</msg>
-<msg>
-	<text>Привет</text>
-	<name>ЯРИК</name>
-	<date>10-03-20 08:25:35</date>
-</msg>
-<msg>
-	<text>Привет</text>
-	<name>ЯРИК</name>
-	<date>10-03-20 08:29:03</date>
-</msg>
-<msg>
-	<text>Привет</text>
-	<name>Борис</name>
-	<date>10-03-20 08:29:12</date>
-</msg>
-<msg>
-	<text>Привет</text>
-	<name>Борис</name>
-	<date>10-03-20 08:32:55</date>
-</msg>
-<msg>
-	<text>Привет</text>
-	<name>Борис</name>
-	<date>10-03-20 08:33:09</date>
+	<text>Дима</text>
+	<name>Привет</name>
+	<date>10-03-20 08:59:29</date>
 </msg>
