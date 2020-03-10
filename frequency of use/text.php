@@ -6,6 +6,7 @@ preg_match_all("/\w+ /iu", $s, $match);
 foreach ($match[0] as $words) {
     $arr[$words]++;
 }
+arsort($arr);
 foreach ($arr as $key => $value) {
-    echo sort($value) . "-" . $key . "раза" . "<br>";
+    echo ($value) . "-" . $key  . "<br>";
 }
