@@ -14,13 +14,15 @@
         <input type="submit" value="ok">
     </form>
     <?php
+    include('BBCode\bbcode.php');
     include('function_XMl.php');
     echo "<pre>";
     save_guests_book("data.XML", $_POST['text'], $_POST['name'], date('d-m-y h:i:s'));
     $arr = read_xml("data.XML");
     foreach ($arr as $value) {
-        echo $value['name'] . ":" . $value['text'] . $value['date'], "<br>";
+        echo smile($value['name'] . ":" . $value['text'] . $value['date']), "<br>";
     }
+
     ?>
 </body>
 
