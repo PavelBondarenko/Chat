@@ -12,7 +12,8 @@
         body {
             background-image: url(unnamed.jpg);
             background-attachment: Fixed;
-            background-size: 100%
+            background-size: 100%;
+            
         }
     </style>
 </head>
@@ -20,14 +21,19 @@
 
 <body>
     <?php
-    $arr = file("mess.txt");
+    // $arr = file("mess.txt");
+    include('function_XMl.php');
     include "BBCode\bbcode.php";
     include("config.php");
+    $arr = read_xml("data.XML");
     foreach ($arr as $value) {
-        $chat = explode("$separator", $value);
-        echo smile(bb_code("<div class='csss'>$chat[2] : $chat[4] : $chat[5]</div>"));
-        // echo "<div class = '" . (($key % 2) ? 'odd' : 'even') . "'> $value </div>";
+        echo smile(bb_code("<div class='csss'>$value[name] : $value[text] : $value[date]</div>")), "<br>";
     }
+    // foreach ($arr as $value) {
+    //     $chat = explode("$separator", $value);
+    //     echo smile(bb_code("<div class='csss'>$chat[2] : $chat[4] : $chat[5]</div>"));
+    //     // echo "<div class = '" . (($key % 2) ? 'odd' : 'even') . "'> $value </div>";
+    // }
     ?>
 </body>
 
