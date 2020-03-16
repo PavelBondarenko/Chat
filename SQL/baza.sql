@@ -16,7 +16,7 @@ SELECT
 FROM
     `wage`
 WHERE
-    ZP > 5000;
+    В ZP > 5000;
 
 -- Все заплаты кроме 111
 SELECT
@@ -71,20 +71,31 @@ SELECT
     *
 FROM
     `wage`
-
 Order by
-    zp desc, dep asc;
-
+    zp desc,
+    dep asc;
 
 -- Переменование столбца zp в зп.
 SELECT
-   Nom, FIO, zp as 'зп', Dev
+    Nom,
+    FIO,
+    zp as 'зп',
+    Dev
 FROM
     `wage`;
 
 --ПОсчитать налоги для каждого человека
-
 SELECT
-   zp * 0.13, as "налог"
+    zp * 0.13,
+    as "налог"
 FROM
     `wage`;
+
+-- Вывод таблицы с вычетом налоога и переименование на зарплата.
+SELECT
+    Nom,
+    FIO,
+    zp - (zp * 0.13) as "зарплата",
+    Dep
+FROM
+    wage;
