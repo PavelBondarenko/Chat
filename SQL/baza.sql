@@ -16,7 +16,7 @@ SELECT
 FROM
     `wage`
 WHERE
-    В ZP > 5000;
+    ZP > 5000;
 
 -- Все заплаты кроме 111
 SELECT
