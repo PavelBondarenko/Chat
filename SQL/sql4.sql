@@ -29,11 +29,12 @@ WHERE
 GROUP BY
     sname
 
---найти среднюю сумму заказов для каждого продовца на каждую дату
+--найти среднюю сумму заказов для каждого продовца на каждую дату и количество заказов
 SELECT
     sname,
     odate,
-    AVG(AMT)
+    AVG(AMT),
+    COUNT(amt)
 FROM
     `salespeople`,
     orders
@@ -42,4 +43,10 @@ WHERE
 GROUP BY
     sname,
     ODATE;
+
+--средняя сумма заказов на каждое число
+SELECT 
+    round(avg(amt), 2), odate
+    FROM orders
+GROUP BY odate;
 
