@@ -46,8 +46,7 @@ FROM `salespeople`
 GROUP by CITY
 HAVING  avg(comm)> 0.14;
 -- Найти средний рейтинг покупателейй в каждом городе
-    select CITY,
-    round(AVG(RATING), 2)
+    select CITY, RATING
 FROM `customers`
 GROUP by CITY
 

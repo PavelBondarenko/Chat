@@ -22,7 +22,7 @@
     echo "<table border = '1'>\n";
     while ($row = mysqli_fetch_array($result, MYSQLI_BOTH)) {
         echo "<tr>";
-        echo "<td>" .  "<a href=''>$row[0]</a>" . "</td>";
+        echo "<td> <a href= 'del.php?id=$row[0]'>" . $row[0] . "</a></td>";
         echo "<td>" . $row[1] . "</td>";
         echo "<td>" . $row[2] . "</td>";
         echo "</tr>";
